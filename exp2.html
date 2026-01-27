@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Banking Interface</title>
+    <link rel="stylesheet" href="exp2.css">
+</head>
+<body>
+
+<div class="bank-container">
+    <h1>My Bank</h1>
+
+    <div class="balance">
+        <span>Balance:</span>
+        <span>₹ <span id="balance">1000</span></span>
+    </div>
+
+    <input type="number" id="amount" placeholder="Enter amount">
+
+    <div class="buttons">
+        <button class="deposit" onclick="deposit()">Deposit</button>
+        <button class="withdraw" onclick="withdraw()">Withdraw</button>
+    </div>
+
+    <p id="message"></p>
+</div>
+
+<script src="exp2.js"></script>
+</body>
+</html>

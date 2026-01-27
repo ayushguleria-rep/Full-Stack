@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    background: #91a9e3;
+    margin: 0;
+    padding: 0;
+}
+
+.bank-container {
+    max-width: 400px;
+    margin: 60px auto;
+    background: #dcdff2;
+    padding: 25px;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+/* Flexbox balance display */
+.balance {
+    display: flex;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #0312b5;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+button {
+    width: 45%;
+    padding: 12px;
+    font-size: 16px;
+    border: none;
+    border-radius: 30px;
+    cursor: pointer;
+    color: white;
+}
+
+.deposit {
+    background-color: #2e7d32;
+}
+
+.withdraw {
+    background-color: #c62828;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+#message {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/* Responsive design */
+@media (max-width: 500px) {
+    .bank-container {
+        margin: 20px;
+    }
+
+    .buttons {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    button {
+        width: 100%;
+    }
+}

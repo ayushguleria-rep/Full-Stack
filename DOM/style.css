@@ -1,0 +1,13 @@
+body{
+    background-color: aqua;
+}
+#heading{
+    text-decoration: dashed;
+    color: black;
+    background-color: yellow;
+}
+#heading1{
+    text-decoration: underline;
+    color: blue;
+    background-color: pink;
+}
