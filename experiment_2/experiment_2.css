@@ -1,0 +1,60 @@
+/* Reset default browser styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Page layout */
+body {
+    font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+    background-color: #f2f4f7;
+    color: #2c2c2c;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+/* Main container */
+.container {
+    background-color: #ffffff;
+    padding: 35px 30px;
+    border-radius: 6px;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+    width: 320px;
+}
+
+/* Label styling */
+label {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    display: block;
+}
+
+/* Input field */
+input[type="text"] {
+    width: 100%;
+    padding: 9px 10px;
+    font-size: 14px;
+    border: 1px solid #bdbdbd;
+    border-radius: 4px;
+    margin-bottom: 14px;
+}
+
+input[type="text"]:focus {
+    outline: none;
+    border-color: #0056b3;
+}
+
+/* Character count text */
+p {
+    font-size: 14px;
+}
+
+#counter {
+    font-weight: 600;
+    color: #0056b3;
+}
