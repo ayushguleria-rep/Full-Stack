@@ -8,7 +8,7 @@
 /* Page layout */
 body {
     font-family: "Segoe UI", Tahoma, Arial, sans-serif;
-    background-color: #f2f4f7;
+    background-color: #505246;
     color: #2c2c2c;
     display: flex;
     justify-content: center;
@@ -18,7 +18,7 @@ body {
 
 /* Main container */
 .container {
-    background-color: #ffffff;
+    background-color: #e5eead;
     padding: 35px 30px;
     border-radius: 6px;
     border: 1px solid #dcdcdc;
