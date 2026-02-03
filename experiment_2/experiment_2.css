@@ -8,7 +8,7 @@
 /* Page layout */
 body {
     font-family: "Segoe UI", Tahoma, Arial, sans-serif;
-    background-color: #f2f4f7;
+    background-color: #c0c6a8;
     color: #2c2c2c;
     display: flex;
     justify-content: center;
@@ -18,10 +18,10 @@ body {
 
 /* Main container */
 .container {
-    background-color: #ffffff;
+    background-color: #e5eead;
     padding: 35px 30px;
     border-radius: 6px;
-    border: 1px solid #dcdcdc;
+    border: 2px solid #000000;
     box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
     width: 320px;
 }
@@ -39,7 +39,7 @@ input[type="text"] {
     width: 100%;
     padding: 9px 10px;
     font-size: 14px;
-    border: 1px solid #bdbdbd;
+    border: 1px solid #011202;
     border-radius: 4px;
     margin-bottom: 14px;
 }
