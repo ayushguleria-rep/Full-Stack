@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Dynamic Product Sorter</title>
+    <link rel="stylesheet" href="exp1.2.1.css">
+</head>
+<body>
+
+<h2>Dynamic Product Sorter</h2>
+
+<div class="controls">
+    <select id="sorter">
+        <option value="">-- Sort By --</option>
+        <option value="price-asc">Price: Low to High</option>
+        <option value="price-dsc">Price: High to Low</option>
+        <option value="rating-asc">Rating: Low to High</option>
+        <option value="rating-dsc">Rating: High to Low</option>
+    </select>
+</div>
+
+<table>
+    <thead>
+        <tr>
+            <th>Name</th>
+            <th>Brand</th>
+            <th>Price (₹)</th>
+            <th>Rating</th>
+        </tr>
+    </thead>
+    <tbody id="product_list">
+        <!-- Rows added dynamically -->
+    </tbody>
+</table>
+
+<script src="exp1.2.1.js"></script>
+</body>
+</html>
