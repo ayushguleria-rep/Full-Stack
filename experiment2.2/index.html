@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>SVG Drawing Tool</title>
+    <link rel="stylesheet" href="exp2.3.css">
+</head>
+<body>
+
+<h2>SVG Circular Brush Drawing Tool</h2>
+
+<div class="controls">
+    <label>Colour:</label>
+    <input type="color" id="colorPicker" value="#000000">
+
+    <label>Brush Size:</label>
+    <input type="range" id="brushSize" min="2" max="20" value="8">
+
+    <button onclick="undo()">Undo</button>
+</div>
+
+<!-- SVG CANVAS -->
+<svg
+    id="svgCanvas"
+    viewBox="0 0 1000 600"
+    preserveAspectRatio="none">
+</svg>
+
+<script src="exp2.3.js"></script>
+</body>
+</html>
