@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+}
+
+.main-heading {
+  text-align: center;
+  margin: 40px 0 20px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+}
+
+.amazon-container {
+  width: 95%;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 25px;
+}

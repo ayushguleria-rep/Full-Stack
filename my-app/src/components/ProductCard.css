@@ -1,0 +1,60 @@
+.amazon-card {
+  background: white;
+  padding: 15px;
+  border-radius: 12px;
+  transition: all 0.3s ease;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.amazon-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0,0,0,0.15);
+}
+
+.amazon-image {
+  width: 100%;
+  height: 180px;
+  object-fit: contain;
+  border-radius: 8px;
+  background: #f9f9f9;
+}
+
+.amazon-content {
+  margin-top: 12px;
+}
+
+.amazon-title {
+  font-size: 15px;
+  font-weight: 600;
+  color: #111;
+  margin-bottom: 6px;
+}
+
+.amazon-rating {
+  margin: 6px 0;
+}
+
+.stars {
+  color: #facc15;
+}
+
+.reviews {
+  color: #2563eb;
+  margin-left: 5px;
+}
+
+.current-price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.original-price {
+  text-decoration: line-through;
+  color: #6b7280;
+  margin-left: 6px;
+}
+
+.discount {
+  color: #dc2626;
+  margin-left: 6px;
+}
